@@ -34,6 +34,10 @@ def avg_count(text):
     avg_count = total / len(text.split())
     return avg_count
 
+#----------------------------------------------------------
+# 5. to check whether the length of text is even or odd
+#----------------------------------------------------------
+
 def is_even(text):
     length = len(text)
     if length % 2 == 0:
